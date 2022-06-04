@@ -209,7 +209,7 @@ function detonuj() {
             if (tab[i][j] == -1 && !komorka.flagged) {
                 komorka.style.backgroundColor = 'gray';
                 komorka.innerHTML = "&#128163";
-            } else if (komorka.flagged) komorka.innerHTML = "&#x1F3C1";
+            } else if (komorka.flagged && tab[i][j] != -1) komorka.innerHTML = "&#x1F3C1";
         }
     }
     koniec(false);
