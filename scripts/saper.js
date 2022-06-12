@@ -147,7 +147,7 @@ function play(r, c) {
         else {
             komorka.innerHTML = tab[r][c];
             komorka.clicked = true;
-            komorka.style.backgroundColor = 'rgb(42, 40, 40)';
+            komorka.style.backgroundColor = 'rgb(72, 71, 71)';
             komorka.style.color = numColors[tab[r][c]];
             pola--;
         }
