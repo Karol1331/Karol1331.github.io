@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPER - MENU GŁÓWNE</title>
+    <link rel="stylesheet" href="css/i-style.css">
+</head>
+
+<body>
+    <header>
+        <h1>SAPER</h1>
+    </header>
+    <main>
+        <section id="trudnosc">
+            <h2>Wybierz poziom trudności:</h2>
+            <table id="poziomy">
+                <tr>
+                    <td class="poziom" onclick="poziom('latwy')">Łatwy</td>
+                </tr>
+                <tr>
+                    <td class="poziom" onclick="poziom('normalny')">Normalny</td>
+                </tr>
+                <tr>
+                    <td class="poziom" onclick="poziom('trudny')">Trudny</td>
+                </tr>
+                <tr>
+                    <td class="zapelniacz">zapelniacz</td>
+                </tr>
+            </table>
+        </section>
+        <section id="custom">
+            <h2>CUSTOM GAME:</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>Szerokość pola: </td>
+                        <td><input type="number" name="szer" id="szer" min="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Wysokość pola: </td>
+                        <td><input type="number" name="wys" id="wys" min="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Ilość bomb: </td>
+                        <td><input type="number" name="bomby" id="bomby" min="1"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="poziom" onclick="custom()">ZATWIERDŹ</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="zapelniacz">zapelniacz</td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <footer>
+            <p id="error"></p>
+        </footer>
+    </main>
+    <div id="wyjscie" onclick="document.location = '../index.html';">
+        <img src="wstecz.png" alt="WYJŚCIE">
+    </div>
+    <script src="scripts/wybory.js"></script>
+</body>
+
+</html>

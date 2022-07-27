@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Courier New', monospace;
+}
+
+section:hover {
+    background-color: rgb(100, 2, 138);
+}
+
+section {
+    height: 265px;
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    -webkit-touch-callout: none;
+    /* IOS Safari */
+}
+
+#saper {
+    font-size: 65px;
+    font-family: 'Brush Script MT', cursive;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(40, 213, 244);
+}
+
+.fwcStyle {
+    float: left;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 65px;
+}

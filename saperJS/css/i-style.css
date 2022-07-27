@@ -1,0 +1,101 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 100px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+    color: rgb(40, 213, 244);
+    -webkit-touch-callout: none;
+    /* wylaczanie zaznaczania tekstu */
+    -webkit-user-select: none;
+    /* wylaczanie zaznaczania tekstu */
+    -khtml-user-select: none;
+    /* wylaczanie zaznaczania tekstu */
+    -moz-user-select: none;
+    /* wylaczanie zaznaczania tekstu */
+    -ms-user-select: none;
+    /* wylaczanie zaznaczania tekstu */
+    user-select: none;
+    /* wylaczanie zaznaczania tekstu */
+}
+
+td {
+    font-size: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poziom {
+    text-align: center;
+}
+
+.poziom:hover {
+    background-color: rgb(37, 27, 45);
+    border-radius: 10px;
+}
+
+
+/*section {
+    float: left;
+    width: 49%;
+    margin: 4px;
+    height: 250px;
+    border: 1px solid white;
+}*/
+
+section {
+    border: 1px solid white;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zapelniacz {
+    color: black;
+}
+
+input {
+    background-color: grey;
+}
+
+#error {
+    color: red;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+#wyjscie {
+    background-color: rgb(40, 213, 244);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#wyjscie:hover {
+    background-color: blueviolet;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+}
