@@ -15,18 +15,14 @@ section:hover {
 
 section {
     height: 265px;
-    user-select: none;
-    /* supported by Chrome and Opera */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    -webkit-touch-callout: none;
-    /* IOS Safari */
+    min-width: 563px;
+    border: 1px solid white;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -webkit-touch-callout: none; /* IOS Safari */
 }
 
 #saper {
@@ -40,7 +36,8 @@ section {
 
 .fwcStyle {
     float: left;
-    width: 50%;
+    width: 49%;
+    margin: 5px;
     justify-content: center;
     align-items: center;
     display: flex;
