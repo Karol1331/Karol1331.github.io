@@ -14,7 +14,8 @@ section:hover {
 }
 
 section {
-    height: 222px;
+    min-height: 222px;
+    margin: 6px;
     border: 1px solid white;
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
@@ -43,6 +44,7 @@ section {
 
 img {
     height: auto;
-    width: 474px;
+    max-width: 100%;
+    min-width: 100px;
     padding: 0%;
 }
