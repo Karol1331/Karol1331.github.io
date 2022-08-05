@@ -14,8 +14,7 @@ section:hover {
 }
 
 section {
-    height: 265px;
-    min-width: 563px;
+    height: 222px;
     border: 1px solid white;
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
@@ -42,4 +41,10 @@ section {
     align-items: center;
     display: flex;
     font-size: 65px;
+}
+
+img {
+    height: auto;
+    width: 474px;
+    padding: 0%;
 }
