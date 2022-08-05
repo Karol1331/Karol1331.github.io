@@ -10,17 +10,28 @@
     <title>Flappy White Cat - wersja</title>
 </head>
 
-<body>
+<body onload="resolution()">
     <header>
         <img src="flappywhitecat-logo.png" alt="Flappy White Cat">
         <h1>Wybór wersji:</h1>
     </header>
     <main>
-        <section class="fwcStyle" onclick="document.location = 'FlappyWhiteCat_WebGL/index.html';">PC</section>
-        <section class="fwcStyle" onclick="window.location = 'android/FlappyWhiteCat[1.22].apk'" style="color: rgb(78, 230, 37);">
-            Android
-        </section>
+        <section class="fwcStyle" id="pc" onclick="document.location = 'FlappyWhiteCat_WebGL/index.html';">PC</section>
+        <section class="fwcStyle" id="android" onclick="window.location = 'android/FlappyWhiteCat[1.22].apk'">Android</section>
     </main>
+    <script>
+        function resolution() {
+            let pc = document.querySelector("#pc");
+            let android = document.querySelector("#android");
+            if (window.innerWidth >= 1235) {
+                pc.style = 'float: left; width: 49%;';
+                android.style = 'color: rgb(78, 230, 37); float: left; width: 49%;'
+            } else {
+                pc.style = '';
+                android.style = 'color: rgb(78, 230, 37);';
+            }
+        }
+    </script>
 </body>
 
 </html>
