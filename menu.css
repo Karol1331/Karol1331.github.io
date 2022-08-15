@@ -17,6 +17,8 @@ section {
     min-height: 222px;
     margin: 6px;
     border: 1px solid white;
+    
+    /* WYLACZENIE ZAZNACZNIA TEKSTU */
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -47,4 +49,9 @@ img {
     max-width: 100%;
     min-width: 100px;
     padding: 0%;
+}
+
+div {
+    padding: 0;
+    margin: 0;
 }
